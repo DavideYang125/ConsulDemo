@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceA", "src\ServiceA\ServiceA.csproj", "{3A3EAD96-4F77-4775-BBE2-094ED9C8FFC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceA", "src\ServiceA\ServiceA.csproj", "{3A3EAD96-4F77-4775-BBE2-094ED9C8FFC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceB", "src\ServiceB\ServiceB.csproj", "{7B27E247-79E9-4049-BFD0-1F6B9C006C68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceB", "src\ServiceB\ServiceB.csproj", "{7B27E247-79E9-4049-BFD0-1F6B9C006C68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53D1C5E4-F973-4137-A5B7-AD4D094189D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Common", "src\Service.Common\Service.Common.csproj", "{8398E04C-39E7-4A34-B168-2144590CBF59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Common", "src\Service.Common\Service.Common.csproj", "{8398E04C-39E7-4A34-B168-2144590CBF59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

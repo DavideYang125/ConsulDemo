@@ -41,9 +41,11 @@ namespace ServiceA
             // зЂВс
             app.RegisterConsul(lifetime, new ConsulOption()
             {
+                //Address= "http://localhost:8500",
                 Address = "http://192.168.7.32:8500",
                 ServiceHealthCheck = "api/health/check",
                 ServiceIP = "192.168.7.32",
+                //ServiceIP = "127.0.0.1",
                 ServiceName = "ServiceA",
                 ServicePort = Configuration.GetValue<int>("Consul:Port")
             });
