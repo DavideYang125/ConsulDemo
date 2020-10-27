@@ -7,8 +7,7 @@ EXPOSE 443
 
 FROM registry.cn-shanghai.aliyuncs.com/yangww/dotnetsdk:v1.0 AS build
 WORKDIR /src
-#COPY ["src/ServiceA/ServiceA.csproj", "src/ServiceA/"]
-COPY ["ServiceA/", "src/ServiceA/"]
+COPY ["src/ServiceA/ServiceA.csproj", "src/ServiceA/"]
 COPY ["src/Service.Common/Service.Common.csproj", "src/Service.Common/"]
 RUN dotnet restore "src/ServiceA/ServiceA.csproj"
 COPY . .
