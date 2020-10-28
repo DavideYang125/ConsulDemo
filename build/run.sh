@@ -1,7 +1,6 @@
 git pull
 curpwd=$(pwd)
 cd ..
-docker rm $(docker ps -a -q)
 
 echo -e "\033[33m 是否启动consul\033[0m"
 echo "y 是"
